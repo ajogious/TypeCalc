@@ -70,6 +70,6 @@ Click Divide → Result: 4.00 (2 decimal places)
 Click Reset → clears inputs and result
 
 🧑‍💻 Author
-Built as a basic project with 💙 for TypeScript.
+I Abdulmumuni Ajoge Built this basic project with 💙 for TypeScript.
 
 ---
