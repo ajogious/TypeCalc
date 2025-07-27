@@ -107,3 +107,53 @@ body {
   font-size: 1.2em;
   margin-right: 5px;
 }
+
+.btn-reset {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  margin: 0.3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-reset:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+  transform: translateY(-2px);
+}
+
+.btn-reset:active {
+  transform: translateY(0);
+}
+
+.btn-reset i {
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+.btn-reset:hover i {
+  transform: rotate(-360deg);
+}
+
+/* Optional: Add a subtle pulse animation when clicked */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(108, 117, 125, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(108, 117, 125, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(108, 117, 125, 0);
+  }
+}
+
+.btn-reset:focus {
+  animation: pulse 0.5s;
+  outline: none;
+}
